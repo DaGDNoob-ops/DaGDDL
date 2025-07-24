@@ -3,55 +3,84 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Da Geometry Dash Demon List (DaGDDL)</title>
+  <title>DaGDDL — Da Geometry Dash Demon List</title>
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0e0e0e;
-      color: #ffffff;
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+      color: #e0e0e0;
+      padding: 2rem;
+      background-attachment: fixed;
     }
 
     header {
-      background-color: #222;
-      padding: 2rem;
       text-align: center;
+      padding: 2rem 1rem;
     }
 
     header h1 {
+      font-size: 3rem;
       color: #00ffee;
-      margin: 0;
-      font-size: 2.5rem;
+      text-shadow: 0 0 8px #00ffee, 0 0 15px #0ff;
     }
 
     header p {
-      color: #ccc;
-      margin-top: 0.5rem;
+      color: #888;
       font-size: 1.1rem;
+      margin-top: 0.5rem;
     }
 
-    section {
+    .list-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 1rem;
       padding: 2rem;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 0 30px rgba(0, 255, 255, 0.05);
     }
 
     h2 {
+      text-align: center;
       font-size: 2rem;
       color: #00ffee;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      text-shadow: 0 0 8px #00ffee;
     }
 
     ol {
-      line-height: 1.8;
-      padding-left: 1.5rem;
+      list-style: decimal;
+      padding-left: 1.2rem;
     }
 
     li {
-      margin-bottom: 1.5rem;
+      margin-bottom: 1.8rem;
+      background: rgba(255, 255, 255, 0.025);
+      padding: 1rem;
+      border-radius: 0.8rem;
+      border-left: 3px solid #00ffee;
+      transition: all 0.2s ease-in-out;
+    }
+
+    li:hover {
+      background: rgba(255, 255, 255, 0.07);
+      transform: translateX(4px);
+    }
+
+    strong {
+      color: #ffffff;
+      font-size: 1.1rem;
     }
 
     .verifier {
-      color: #ff8a00;
+      color: #ffaa00;
       font-weight: bold;
     }
 
@@ -60,69 +89,74 @@
       font-style: italic;
     }
 
+    em {
+      color: #bbb;
+      display: block;
+      margin-top: 0.3rem;
+    }
+
     footer {
-      background-color: #111;
       text-align: center;
-      padding: 1rem;
+      margin-top: 3rem;
       font-size: 0.9rem;
-      color: #888;
+      color: #666;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>🔥 DaGDDL 🔥</h1>
-    <p>The unofficial Geometry Dash Demon List that hits different</p>
+    <p>The underground Geometry Dash Demon List</p>
   </header>
 
-  <section id="top-list">
+  <div class="list-container">
     <h2>🏆 Top 10 Demons</h2>
     <ol>
       <li>
         <strong>1. Amethyst</strong> — <span class="verifier">Verified by Zoink</span> — <span class="difficulty">Extreme Demon</span>
-        <br><em>A high-speed, visually intense challenge with brutal wave sections.</em>
+        <em>A high-speed, visually intense challenge with brutal wave sections.</em>
       </li>
       <li>
         <strong>2. Tidal Wave</strong> — <span class="verifier">Verified by Juhou</span> — <span class="difficulty">Extreme Demon</span>
-        <br><em>Water-themed difficulty spike with complex transitions and choke points.</em>
+        <em>Water-themed difficulty spike with complex transitions and choke points.</em>
       </li>
       <li>
         <strong>3. Nullscapes</strong> — <span class="verifier">Verified by Cersia</span> — <span class="difficulty">Extreme Demon</span>
-        <br><em>A dark and atmospheric level with tight gameplay and heavy sync.</em>
+        <em>A dark and atmospheric level with tight gameplay and heavy sync.</em>
       </li>
       <li>
         <strong>4. Limbo</strong> — <span class="verifier">Verified by MindCap</span> — <span class="difficulty">Extreme Demon</span>
-        <br><em>Massive collab known for its mind-bending effects and layout transitions.</em>
+        <em>Massive collab known for its mind-bending effects and layout transitions.</em>
       </li>
       <li>
         <strong>5. Acheron</strong> — <span class="verifier">Verified by Zoink</span> — <span class="difficulty">Extreme Demon</span>
-        <br><em>Considered one of the hardest wave levels ever, precise to the pixel.</em>
+        <em>Considered one of the hardest wave levels ever, precise to the pixel.</em>
       </li>
       <li>
         <strong>6. Firework</strong> — <span class="verifier">Verified by Trick</span> — <span class="difficulty">Extreme Demon</span>
-        <br><em>Visually stunning and rhythmically complex with punishing segments.</em>
+        <em>Visually stunning and rhythmically complex with punishing segments.</em>
       </li>
       <li>
         <strong>7. Sakupen Circles</strong> — <span class="verifier">Verified by Diamond</span> — <span class="difficulty">Extreme Demon</span>
-        <br><em>A terrifying Nine Circles remake with reversed gravity and memory paths.</em>
+        <em>A terrifying Nine Circles remake with reversed gravity and memory paths.</em>
       </li>
       <li>
         <strong>8. Sakupen Hell</strong> — <span class="verifier">Verified by TrusTa</span> — <span class="difficulty">Extreme Demon</span>
-        <br><em>A legendary level known for its raw difficulty and old-school vibes.</em>
+        <em>A legendary level known for its raw difficulty and old-school vibes.</em>
       </li>
       <li>
         <strong>9. Slaughterhouse</strong> — <span class="verifier">Verified by SpaceUK</span> — <span class="difficulty">Extreme Demon</span>
-        <br><em>Hyper-tight gameplay and high speed make this one of the most iconic challenges.</em>
+        <em>Hyper-tight gameplay and high speed make this one of the most iconic challenges.</em>
       </li>
       <li>
         <strong>10. Shukketsu</strong> — <span class="verifier">Verified by Bianox</span> — <span class="difficulty">Extreme Demon</span>
-        <br><em>Replaces duplicate entry. A short but brutal challenge with signature Bianox polish.</em>
+        <em>A short but brutal challenge with signature Bianox polish.</em>
       </li>
     </ol>
-  </section>
+  </div>
 
   <footer>
-    <p>Made by DaGDNoob and some opinions by CrazeonDash🌀 | DaGDDL © 2025</p>
+    Made by DaGDNoob and CrazeonDash 🌀 | DaGDDL © 2025
   </footer>
 </body>
 </html>
